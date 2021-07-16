@@ -1,0 +1,9 @@
+    return Posts::create([
+        'slug' => 'blog-one',
+        'title' => 'First Blog',
+        'sub_title' => 'Try this first',
+        'text' => 'Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. Ich lese nicht sehr viele Zeitungen,',
+        'image' => '/public/images/duck.png',
+        'user_id' => 2,
+        
+    ]);
